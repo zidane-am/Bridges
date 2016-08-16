@@ -1,10 +1,9 @@
 import java.awt.*;
- import java.awt.event.*;
- import java.awt.geom.Ellipse2D;
- import javax.swing.*;
- import java.awt.geom.Rectangle2D;
- import java.awt.image.BufferedImage;
- import javax.swing.border.*;
+import java.awt.event.*;import java.awt.geom.Ellipse2D;
+import javax.swing.*;
+import java.awt.geom.Rectangle2D;
+import java.awt.image.BufferedImage;
+import javax.swing.border.*;
 
 public class Bridges {
      private final JPanel gui = new JPanel(new BorderLayout(3, 3));
