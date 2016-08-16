@@ -7,9 +7,6 @@ import javax.accessibility.*;
 import java.awt.*;
 import java.awt.event.*;
 
-/*
- * RootLayeredPaneDemo.java requires images/dukeWaveRed.gif.
- */
 public class RootLayeredPaneDemo extends JPanel
                                  implements ActionListener,
                                             MouseMotionListener {
@@ -152,12 +149,6 @@ public class RootLayeredPaneDemo extends JPanel
                                  position);
         }
     }
-
-    /**
-     * Create the GUI and show it.  For thread safety,
-     * this method should be invoked from the
-     * event-dispatching thread.
-     */
     private static void createAndShowGUI() {
         //Create and set up the window.
         JFrame frame = new JFrame("RootLayeredPaneDemo");
@@ -184,4 +175,3 @@ public class RootLayeredPaneDemo extends JPanel
         });
     }
 }
-
